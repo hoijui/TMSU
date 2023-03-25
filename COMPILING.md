@@ -43,14 +43,14 @@ Linux
 
 4. Build and install
 
-    make
-    sudo make install
+        make
+        sudo make install
 
     or, to compile manually:
 
-    mkdir bin
-    cd src/github.com/oniony/TMSU
-    go build -o ../../../../bin/tmsu .
+        mkdir bin
+        cd src/github.com/oniony/TMSU
+        go build -o ../../../../bin/tmsu .
 
     This will build the binary and copy it to `/usr/bin`, aswell as installing
     Zsh completion, a `mount` wrapper and the manual page. To adjust the paths
@@ -90,7 +90,6 @@ Windows
 
         go get -u github.com/mattn/go-sqlite3
         go get -u golang.org/x/crypto/blake2b
-
 
 7. Set the path
 
